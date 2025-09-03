@@ -1,0 +1,34 @@
+
+function NavBar({referencia}) {
+
+  // Declaramos dos arrays de objetos para la navegación y las redes sociales
+  // para poder re utilizar el componente NavBar en diferentes contextos
+  const navegacion = [
+    {name: "About Us", link: "/"},
+    {name: "Campaign", link: "/contact"},
+    {name: "Contact Us", link: "/about"},
+  ]
+  const redes = [
+    {name: "Youtube", link: "https://www.youtube.com/"},
+    {name: "Instagram", link: "https://www.instagram.com/"},
+    {name: "Facebook", link: "https://www.facebook.com/"},
+  ]
+
+  // Seleccionamos el array adecuado según el parámetro recibido en 'referencia'
+  const etiquetas = referencia === "redes" ? redes : navegacion;
+
+  return(    
+            
+    <nav className= "flex gap-15 font-bold">        
+      <a href={etiquetas[0].link}>{etiquetas[0].name}</a>
+      <p className="text-red-800">·</p>
+      <a href={etiquetas[1].link}>{etiquetas[1].name}</a>
+      <p className="text-red-800">·</p>
+      <a href={etiquetas[2].link}>{etiquetas[2].name}</a>    
+    </nav>
+
+  )
+}
+
+
+export default NavBar;
