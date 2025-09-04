@@ -16,7 +16,7 @@ function Stats() {
         
 
         {/* Recorremos el array de informacion de stats */}
-        <div className="max-w-[90%] mx-auto flex justify-between gap-8">
+        <div className="max-w-[85%] mx-auto flex justify-between gap-8">
             {stats.map((stat, index) => (
                 <div key={index} className="text-center text-white flex gap-5">
                     <img src={stat.icon} alt={stat.label} className="w-16 h-16 invert"/>

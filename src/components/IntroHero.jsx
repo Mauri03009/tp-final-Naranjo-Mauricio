@@ -1,25 +1,21 @@
 import NavBar from "./NavBar";
 
 function IntroHero(){
-  return (
+  return (    
+    <div className="h-full flex justify-evenly flex-col gap-15">
+      <p className="text-3xl">Ta:</p>
 
-    <section className="flex justify-center w-[90%]">
-      <div className="h-full w-[90vh] flex justify-evenly flex-col gap-15">
-        <p className="text-3xl">Ta:</p>
-
-        <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-            Charity Is An <br /> Act Of A Soft <br /> Heart.
-        </h1>
-
-        <p className="text-lg leading-relaxed">
-          We've spent the last 7 years helping over 25,00000 <br/> teams just like yourself create and sustain <br /> successful online support.
-        </p>       
-         
-        <NavBar referencia = "redes"/>
+      <div>
+      <h1 className="text-4xl lg:text-[4.5rem] font-bold leading-tight mb-4">
+          Charity Is An <br /> Act Of A Soft <br /> Heart.
+      </h1>
+      <p className="text-md leading-relaxed font-thin text-[#70716d]">
+        We've spent the last 7 years helping over 25,00000 <br/> teams just like yourself create and sustain <br /> successful online support.
+      </p>       
       </div>
-            
-    </section>
-    
+      
+      <NavBar referencia = "redes"/>
+    </div>    
   );
 };
 
