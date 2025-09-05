@@ -12,7 +12,7 @@ function Comunidad(){
             <div className="w-[80%] py-10 flex flex-col">
                 <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">Support Your <br /> Community</h2>
                 <hr className="w-15 mt-5 mb-5" />
-                <p className="text-[1rem] text-gray-600 leading-relaxed">
+                <p className="text-[1rem] text-[#4a4a4a] leading-relaxed">
                     The legal definition of a charitable organization (and of charity) varies between countries and in charity law effects charitable organizations also vary.
                 </p>
                 <div className="flex gap-9 mt-15">
