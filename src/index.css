@@ -13,3 +13,7 @@ p, div, span, a, button, input {
   font-style: italic;
 }
 
+.white-h2{
+  color: white !important;
+}
+

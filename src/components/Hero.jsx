@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 function Hero(){
   return (
-    <div className="relative min-h-screen bg-gradient-to-r from-white from-50% to-[#fdd65b] to-50%">      
+    <div className="relative min-h-screen bg-gradient-to-r from-[#f9f4e8] from-50% to-[#fdd65b] to-50%">      
       <section className="w-[85%] mx-auto min-h-screen flex items-center justify-center">
         <div className="w-1/2">
           <IntroHero/>
