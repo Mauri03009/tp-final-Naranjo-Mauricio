@@ -13,7 +13,9 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 ---
 
 ## Vista previa del proyecto
-!(./assets/tp-final-naranjo-mauricio.vercel.app_.png)
+
+![ScreenShot](./assets/tp-final-naranjo-mauricio.vercel.app_.png)
+
 
 ## 📂 Estructura del proyecto
 
