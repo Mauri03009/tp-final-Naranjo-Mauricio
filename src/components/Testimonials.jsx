@@ -10,8 +10,7 @@ function Testimonials(){
         quote:
           "We're very happy that the challenge went well, and we're grateful that we have a partner in Charity Challenge whom we could trust to take the best possible care of our supporters.",
         rating: "5.0",
-        image: "./public/images/menTeam1.png",
-        bgColor: "bg-yellow-400",
+        image: "./public/images/marcusTestimonial.png",
       },
       {
         id: 2,
@@ -20,8 +19,7 @@ function Testimonials(){
         quote:
           "The level of professionalism and attention to detail exceeded our expectations. Our team felt supported throughout the entire process, and the results speak for themselves.",
         rating: "5.0",
-        image: "/professional-woman-short-hair-smile.png",
-        bgColor: "bg-blue-400",
+        image: "./public/images/sarahTestimonial.png",
       },
       {
         id: 3,
@@ -30,8 +28,7 @@ function Testimonials(){
         quote:
           "Working with this team transformed our approach to sustainability. Their expertise and dedication helped us achieve goals we thought were impossible.",
         rating: "4.9",
-        image: "/professional-man-with-beard-in-business-attire.jpg",
-        bgColor: "bg-green-400",
+        image: "./public/images/marcusTestimonial.png",
       },
       {
         id: 4,
@@ -40,19 +37,26 @@ function Testimonials(){
         quote:
           "The creative solutions and innovative thinking brought our vision to life in ways we never imagined. Truly a game-changing partnership.",
         rating: "5.0",
-        image: "/professional-woman-with-long-hair-in-creative-work.jpg",
-        bgColor: "bg-purple-400",
+        image: "./public/images/emilyTestimonial.png",
       },
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const nextTestimonial = () => {
-        setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+        setCurrentIndex((prev) => {
+            const newIndex = (prev + 1) % testimonials.length
+            console.log('Next testimonial:', newIndex, testimonials[newIndex].name)
+            return newIndex
+        })
     }
 
     const prevTestimonial = () => {
-      setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
+      setCurrentIndex((prev) => {
+          const newIndex = (prev - 1 + testimonials.length) % testimonials.length
+          console.log('Previous testimonial:', newIndex, testimonials[newIndex].name)
+          return newIndex
+      })
     }
 
     const currentTestimonial = testimonials[currentIndex]
@@ -71,6 +75,7 @@ function Testimonials(){
                             </p>                                
                         </div>
                         <img 
+                            key={currentTestimonial.id}
                             src={currentTestimonial.image} 
                             alt={currentTestimonial.name} 
                             className="w-full h-110 object-contain rounded-b-full"

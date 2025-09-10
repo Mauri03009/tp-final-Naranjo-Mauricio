@@ -10,9 +10,9 @@ function Members(){
     <>
     <div className="flex gap-10 w-full">
       {miembros.map((miembro, index) => (
-        <div key={index} className="flex flex-wrap items-center justify-center w-[25%]">
+        <div key={index} className="flex flex-wrap items-center justify-center w-[25%] cursor-pointer">
           <div
-            className="w-55 h-55 rounded-full relative mx-auto mt-20"
+            className="w-55 h-55 rounded-full relative mx-auto mt-20 hover:-translate-y-3 duration-300"
             style={{ backgroundColor: miembro.color }}
           >
             <img

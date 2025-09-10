@@ -20,11 +20,11 @@ function NavBar({referencia}) {
   return(    
             
     <nav className= "flex gap-15 font-bold">        
-      <a href={etiquetas[0].link}>{etiquetas[0].name}</a>
+      <a className="hover:scale-110 duration-300" href={etiquetas[0].link}>{etiquetas[0].name}</a>
       <p className="text-red-800">·</p>
-      <a href={etiquetas[1].link}>{etiquetas[1].name}</a>
+      <a className="hover:scale-110 duration-300" href={etiquetas[1].link}>{etiquetas[1].name}</a>
       <p className="text-red-800">·</p>
-      <a href={etiquetas[2].link}>{etiquetas[2].name}</a>    
+      <a className="hover:scale-110 duration-300" href={etiquetas[2].link}>{etiquetas[2].name}</a>    
     </nav>
 
   )

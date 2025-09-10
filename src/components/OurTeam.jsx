@@ -15,7 +15,7 @@ function OurTeam(){
             
       </div>
       
-      <hr className="mt-20 w-[85%] mx-auto border-0 h-[1px] bg-[#e3ded2]" />
+      <hr className="mt-20 w-[85%] mx-auto border-0 h-[1px] bg-[#d3cec2]" />
 
     </section>
   );

@@ -6,7 +6,9 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import OurTeam from './components/OurTeam'
 import Stats from './components/Stats'
-import Testimonials from './components/Testimonials'
+
+// import Testimonials from './components/Testimonials'
+import TestimonialsDos from './components/TestimonialsDos'
 
 
 function App() {
@@ -15,11 +17,11 @@ function App() {
   return (
     <>
     <Hero />  
-    <Stats />
+    <Stats/>
     <Comunidad />
     <AboutUs />
     <OurTeam />
-    <Testimonials />     
+    <TestimonialsDos />     
     <Donate />
     <Footer />
     </>

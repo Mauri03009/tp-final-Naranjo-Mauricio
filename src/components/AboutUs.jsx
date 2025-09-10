@@ -12,7 +12,7 @@ function AboutUs(){
                     <h2 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">About Us</h2>
                     <hr className="w-15 mt-5 mb-5"/>
                     <p className="text-[1rem] text-[#4a4a4a] leading-relaxed">The legal definition of a charitable organization (and of <br /> charity) varies between countries and in some instances <br /> regions of the country. The regulation, the tax treatment, and <br /> the way in which charity law affects charitable organizations <br /> also vary.</p>
-                    <a className="mt-5 underline font-bold text-[#2a3b38] cursor-pointer">Read More</a>
+                    <a className="mt-5 underline font-bold text-[#2a3b38] cursor-pointer hover:text-[#00705c]">Read More</a>
                 </div>
 
                 
@@ -20,7 +20,7 @@ function AboutUs(){
 
         </div>
 
-        <hr className="mt-20 w-[85%] mx-auto border-0 h-[1px] bg-[#e3ded2]" />
+        <hr className="mt-20 w-[85%] mx-auto border-0 h-[1px] bg-[#d3cec2]" />
 
     </section>
     
