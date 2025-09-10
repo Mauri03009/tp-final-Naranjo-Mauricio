@@ -10,7 +10,7 @@ function Stats() {
   ];
 
   return (
-    <section className="bg-[url('/images/fondoStats.png')] bg-cover bg-no-repeat bg-center py-15">     
+    <section className="bg-[url('/images/fondoStats.png')] bg-cover bg-no-repeat bg-center py-20">     
 
         {/* Recorremos el array de informacion de stats */}
         <div className="max-w-[85%] mx-auto flex justify-between gap-8">
