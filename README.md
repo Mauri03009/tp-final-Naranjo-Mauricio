@@ -32,24 +32,6 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 - **Footer** con enlaces a redes sociales y recursos adicionales.
 - **Diseño responsivo** para dispositivos móviles y escritorio.
 
-## Instalación y ejecución
-
-1. Clona el repositorio:
-   ```sh
-   git clone <URL-del-repositorio>
-   cd tp-final-Naranjo-Mauricio
-   ```
-2. Instala las dependencias:
-   ```sh
-   npm install
-   npm install framer-motion
-   npm install react-countup
-   ```
-3. Ejecuta el servidor de desarrollo:
-   ```sh
-   npm run dev
-   ```
-
 ## Compatibilidad de visualización
 
 El diseño ha sido probado y se visualiza correctamente en pantallas de **1280px** de ancho en adelante. Se recomienda utilizar resoluciones iguales o superiores para una mejor experiencia, mientras se continúa trabajando en la optimización para dispositivos móviles y otros tipos de pantallas

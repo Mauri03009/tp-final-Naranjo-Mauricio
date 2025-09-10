@@ -1,17 +1,16 @@
 import CountUp from "react-countup";
-import { useEffect, useState } from "react";
 
 function Stats() {
 
   const stats = [
-    { label: "Donations Received", value: 985, suffix: "+", icon: "./public/icons/charity.png" },
-    { label: "Money Donated", value: 10, prefix: "$", suffix: "M", icon: "./public/icons/donation.png" },
-    { label: "Active Campaigns", value: 12, suffix: "+", icon: "./public/icons/megaphone.png" },
-    { label: "Charity in Last Year", value: 60, prefix: "$", suffix: "M", icon: "./public/icons/peace.png" },
+    { label: "Donations Received", value: 985, suffix: "+", icon: "/icons/charity.png" },
+    { label: "Money Donated", value: 10, prefix: "$", suffix: "M", icon: "/icons/donation.png" },
+    { label: "Active Campaigns", value: 12, suffix: "+", icon: "/icons/megaphone.png" },
+    { label: "Charity in Last Year", value: 60, prefix: "$", suffix: "M", icon: "/icons/peace.png" },
   ];
 
   return (
-    <section className="bg-[url('./public/images/fondoStats.png')] bg-cover bg-no-repeat bg-center py-15">     
+    <section className="bg-[url('/images/fondoStats.png')] bg-cover bg-no-repeat bg-center py-15">     
 
         {/* Recorremos el array de informacion de stats */}
         <div className="max-w-[85%] mx-auto flex justify-between gap-8">

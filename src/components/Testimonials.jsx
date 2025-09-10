@@ -11,7 +11,7 @@ function TestimonialsDos(){
         quote:
           "We're very happy that the challenge went well, and we're grateful that we have a partner in Charity Challenge whom we could trust to take the best possible care of our supporters.",
         rating: "5.0",
-        image: "./public/images/mustafaTestimonial.png",
+        image: "/images/mustafaTestimonial.png",
         bgColor: "bg-yellow-400",
       },
       {
@@ -21,7 +21,7 @@ function TestimonialsDos(){
         quote:
           "The level of professionalism and attention to detail exceeded our expectations. Our team felt supported throughout the entire process, and the results speak for themselves.",
         rating: "5.0",
-        image: "./public/images/sarahTestimonial.png",
+        image: "/images/sarahTestimonial.png",
         bgColor: "bg-blue-400",
       },
       {
@@ -31,7 +31,7 @@ function TestimonialsDos(){
         quote:
           "Working with this team transformed our approach to sustainability. Their expertise and dedication helped us achieve goals we thought were impossible.",
         rating: "4.9",
-        image: "./public/images/marcusTestimonial.png",
+        image: "/images/marcusTestimonial.png",
         bgColor: "bg-green-400",
       },
       {
@@ -41,7 +41,7 @@ function TestimonialsDos(){
         quote:
           "The creative solutions and innovative thinking brought our vision to life in ways we never imagined. Truly a game-changing partnership.",
         rating: "5.0",
-        image: "./public/images/emilyTestimonial.png",
+        image: "/images/emilyTestimonial.png",
         bgColor: "bg-purple-400",
       },
     ]

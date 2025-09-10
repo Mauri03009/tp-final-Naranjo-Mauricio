@@ -1,10 +1,10 @@
 
 function Members(){
     const miembros = [
-  { referencia: "./public/images/womenTeam1.png", color: "#fcd759", nombre: "Lily Gomez", rol: "Founder" },
-  { referencia: "./public/images/menTeam1.png", color: "#00715d", nombre: "Dm Lincoln", rol: "Co-Founder" },
-  { referencia: "./public/images/womenTeam2.png", color: "#fcd759", nombre: "Serena Mei", rol: "Manager" },
-  { referencia: "./public/images/menTeam2.png", color: "#00715d", nombre: "Abdul Latif", rol: "Supervisor" },
+  { referencia: "/images/womenTeam1.png", color: "#fcd759", nombre: "Lily Gomez", rol: "Founder" },
+  { referencia: "/images/menTeam1.png", color: "#00715d", nombre: "Dm Lincoln", rol: "Co-Founder" },
+  { referencia: "/images/womenTeam2.png", color: "#fcd759", nombre: "Serena Mei", rol: "Manager" },
+  { referencia: "/images/menTeam2.png", color: "#00715d", nombre: "Abdul Latif", rol: "Supervisor" },
 ];
     return (
     <>

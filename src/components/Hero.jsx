@@ -18,7 +18,7 @@ function Hero(){
           </div>
           <img
             className="h-[100vh] w-full object-cover object-center self-start"
-            src="./public/images/charityGirl.jpg"
+            src="/images/charityGirl.jpg"
             alt=""/>
         </div>
       </section>
