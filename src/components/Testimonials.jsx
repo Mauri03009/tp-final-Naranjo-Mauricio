@@ -69,7 +69,7 @@ function TestimonialsDos(){
                 <AnimatePresence mode="wait">
                     <motion.div 
                         key={currentTestimonial.id}
-                        className="bg-[#fdd65b] rounded-b-full w-200 h-135 relative z-1"
+                        className="bg-[#fdd65b] rounded-b-full w-[50%] h-135 relative z-1"
                         initial={{ opacity: 0, x: -100, scale: 0.8 }}
                         animate={{ opacity: 1, x: 0, scale: 1 }}
                         exit={{ opacity: 0, x: 100, scale: 0.8 }}
@@ -98,7 +98,7 @@ function TestimonialsDos(){
                 </AnimatePresence>
                 
                 <motion.div 
-                    className="w-200 h-100 bg-white relative -translate-x-10 z-0"
+                    className="w-[50%] h-100 bg-white relative -translate-x-10 z-0"
                     initial={{ opacity: 0, x: 100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
