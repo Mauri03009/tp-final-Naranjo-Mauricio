@@ -7,8 +7,8 @@ import Hero from './components/Hero'
 import OurTeam from './components/OurTeam'
 import Stats from './components/Stats'
 
-// import Testimonials from './components/Testimonials'
-import TestimonialsDos from './components/TestimonialsDos'
+import Testimonials from './components/Testimonials'
+
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
     <Comunidad />
     <AboutUs />
     <OurTeam />
-    <TestimonialsDos />     
+    <Testimonials />     
     <Donate />
     <Footer />
     </>
