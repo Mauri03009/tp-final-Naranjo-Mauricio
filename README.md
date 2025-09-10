@@ -12,6 +12,9 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 
 ---
 
+## Vista previa del proyecto
+(./assets/tp-final-naranjo-mauricio.vercel.app_.png)
+
 ## 📂 Estructura del proyecto
 
 - `src/components/`: Componentes React para cada sección (Hero, About, Comunidad, Equipo, Estadísticas, Testimonios, Footer, Navbar, Newsletter, etc.)  
