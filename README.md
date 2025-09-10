@@ -1,54 +1,61 @@
 # Charity Challenge - TP Final | Naranjo Mauricio
 
-Este proyecto es una **aplicación web moderna** desarrollada como trabajo final, orientada a la promoción de campañas de caridad y donaciones. Utiliza tecnologías actuales como **React**, **Vite** y **TailwindCSS** para ofrecer una experiencia rápida, y visualmente atractiva.
+Este proyecto es una **aplicación web moderna** desarrollada como trabajo final, orientada a la promoción de campañas de caridad y donaciones. Utiliza tecnologías actuales como **React**, **Vite** y **TailwindCSS** para ofrecer una experiencia rápida y visualmente atractiva.
 
-## Tecnologías utilizadas
+---
 
-- **React**: Librería principal para la construcción de interfaces de usuario.
-- **Vite**: Herramienta de desarrollo rápido y eficiente.
-- **TailwindCSS**: Framework de estilos utilitario para diseño responsivo.
-- **Framer Motion**: Animaciones fluidas y transiciones interactivas.
-- **React CountUp**: Animación de estadísticas numéricas.
+## 🛠 Tecnologías utilizadas
+
+- **React**: Librería principal para la construcción de interfaces de usuario.  
+- **Vite**: Herramienta de desarrollo rápido y eficiente.  
+- **TailwindCSS**: Framework de estilos utilitario para diseño responsivo.  
+- **Framer Motion**: Animaciones fluidas y transiciones interactivas.  
+- **React CountUp**: Animación de estadísticas numéricas.  
 - **ESLint**: Control de calidad y estilo de código.
 
-## Estructura del proyecto
+---
 
-- `src/components/`: Componentes React para cada sección (Hero, About, Comunidad, Equipo, Estadísticas, Testimonios, Footer, Navbar, Newsletter, etc.).
-- `src/assets/`: Imágenes, íconos y recursos gráficos.
-- `public/`: Recursos estáticos accesibles globalmente.
-- `tailwind.config.js`: Personalización de estilos y fuentes.
-- `vite.config.js`: Configuración de plugins y rutas.
-- `App.jsx`: Composición principal de la aplicación.
+## 📂 Estructura del proyecto
+
+- `src/components/`: Componentes React para cada sección (Hero, About, Comunidad, Equipo, Estadísticas, Testimonios, Footer, Navbar, Newsletter, etc.)  
+- `src/assets/`: Imágenes, íconos y recursos gráficos.  
+- `public/`: Recursos estáticos accesibles globalmente.  
+- `tailwind.config.js`: Personalización de estilos y fuentes.  
+- `vite.config.js`: Configuración de plugins y rutas.  
+- `App.jsx`: Composición principal de la aplicación.  
 - `index.html`: Entrada principal de la web.
 
-## Funcionalidades
+---
 
-- **Landing Page** con navegación intuitiva y scroll suave entre secciones.
-- **Animaciones** en la carga de componentes y al interactuar con elementos.
-- **Sección de estadísticas** con números animados para mostrar el impacto de las campañas.
-- **Testimonios** de participantes y donantes.
-- **Equipo**: Presentación de los miembros detrás del proyecto.
-- **Newsletter**: Formulario para suscripción y contacto.
-- **Footer** con enlaces a redes sociales y recursos adicionales.
+## ✨ Funcionalidades
+
+- **Landing Page** con navegación intuitiva y scroll suave entre secciones.  
+- **Animaciones** en la carga de componentes y al interactuar con elementos.  
+- **Sección de estadísticas** con números animados para mostrar el impacto de las campañas.  
+- **Testimonios** de participantes y donantes.  
+- **Equipo**: Presentación de los miembros detrás del proyecto.  
+- **Newsletter**: Formulario para suscripción y contacto.  
+- **Footer** con enlaces a redes sociales y recursos adicionales.  
 - **Diseño responsivo** para dispositivos móviles y escritorio.
 
-## Instalación y ejecución
+---
+
+## 🚀 Instalación y ejecución
 
 1. Clona el repositorio:
-   ```sh
+   ```
    git clone <URL-del-repositorio>
    cd tp-final-Naranjo-Mauricio
+2. Instala Dependencias
    ```
-2. Instala las dependencias:
-   ```sh
    npm install
    npm install framer-motion
    npm install react-countup
+3. Ejecuta el servidor en desarrollo
    ```
-3. Ejecuta el servidor de desarrollo:
-   ```sh
    npm run dev
-   ```
+
+---
 
 ## Compatibilidad de visualización
 
@@ -65,6 +72,8 @@ El proyecto está pensado para seguir creciendo y adaptándose a nuevas necesida
 - **Sistema de comentarios** Integración de foro o feedback de distintos usuarios.
 
 Estas mejoras buscan hacer la plataforma más robusta, accesible y útil para todos los
+
+---
 
 ## Créditos y agradecimientos
 
