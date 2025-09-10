@@ -6,10 +6,9 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 
 ## 🛠 Tecnologías utilizadas
 
-[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)  
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)  
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)  
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
+[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/): Librería principal para la construcción de interfaces de usuario.  
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/): Herramienta de desarrollo rápido y eficiente.  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/): Framework de estilos utilitario para diseño responsivo.  
 
 ---
 
