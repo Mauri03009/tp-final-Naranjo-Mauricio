@@ -1,9 +1,5 @@
 
-function Comunidad(){
-  const campaigns = [
-    { title: "Covid - 19", image: "./public/images/covid.jpg"},
-    { title: "Food Bank", image: "./public/images/comida.jpg"},
-  ]
+function Comunidad(){  
 
   return (
     <section className="bg-[#f9f4e8]">
@@ -17,11 +13,11 @@ function Comunidad(){
                 </p>
                 <div className="flex gap-9 mt-15">
                     <div className="bg-white cursor-pointer hover:shadow-2xl duration-300">
-                        <img src="./public/images/covid.jpg" className="w-95 h-60 object-cover"/>
+                        <img src="/images/covid.jpg" className="w-95 h-60 object-cover"/>
                         <h3 className="text-1xl font-bold text-gray-800 p-5">Covid - 19</h3>
                     </div>
                     <div className="bg-white cursor-pointer hover:shadow-2xl duration-300">
-                        <img src="./public/images/comida.jpg" className="w-95 h-60 object-cover"/>
+                        <img src="/images/comida.jpg" className="w-95 h-60 object-cover"/>
                         <h3 className="text-1xl font-bold text-gray-800 p-5">Food Bank</h3>
                     </div>
                 </div>
@@ -30,7 +26,7 @@ function Comunidad(){
                          
             <div className="w-[30%] h-147 flex flex-col items-center justify-between mt-10">
                 <div className="w-full bg-white cursor-pointer hover:shadow-2xl duration-300">
-                    <img src="./public/images/bottle.jpg" className="w-full h-100 object-cover"/>
+                    <img src="/images/bottle.jpg" className="w-full h-100 object-cover"/>
                     <h3 className="text-1xl font-semibold text-gray-800 p-5">Safe Water</h3>
                 </div>
                 <a className="underline font-bold text-[#2a3b38] hover:text-[#00705c]" href="#">View all Campaign</a>

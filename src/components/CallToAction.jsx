@@ -12,7 +12,7 @@ function CallToAction() {
         </div>
 
         {/* Línea conectora */}
-        <img src="./public/icons/arrow.png" alt="Flecha" className="w-30" />
+        <img src="/icons/arrow.png" alt="Flecha" className="w-30" />
 
         {/* Sección de video */}
         <div className="flex flex-col items-center lg:items-end">
