@@ -16,13 +16,23 @@ function App() {
 
   return (
     <>
-    <Hero />  
+    <section id="home">
+      <Hero />  
+    </section>
     <Stats/>
-    <Comunidad />
-    <AboutUs />
-    <OurTeam />
+    <section id="comunidad">
+      <Comunidad />
+    </section>
+    <section id="about-us">
+      <AboutUs />
+    </section>
+    <section id="team">
+      <OurTeam />
+    </section>
     <Testimonials />     
-    <Donate />
+    <section id="donate">
+      <Donate />
+    </section>
     <Footer />
     </>
     
