@@ -21,7 +21,7 @@ function CallToAction() {
             <div className="w-48 h-48 lg:w-40 lg:h-40 bg-[#f9f4e8] rounded-full flex items-center justify-center relative overflow-hidden">
               
               {/* Texto circular */}
-              <div   className="absolute inset-0 flex items-center justify-center" style={{ animation: 'spin 35s linear infinite reverse' }}>
+              <div className="absolute inset-0 flex items-center justify-center animate-[spin_25s_linear_infinite_reverse]">
                 <svg 
                   className="w-30 h-30 lg:w-50 lg:h-50" 
                   viewBox="0 0 200 200" 
