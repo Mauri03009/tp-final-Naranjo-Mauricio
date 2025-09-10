@@ -14,7 +14,7 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 
 ## Vista previa del proyecto
 
-![ScreenShot](./assets/tp-final-naranjo-mauricio.vercel.app_.png)
+![Preview](src/assets/Screenshot.png)
 
 
 ## 📂 Estructura del proyecto
@@ -40,8 +40,6 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 - **Footer** con enlaces a redes sociales y recursos adicionales.  
 - **Diseño responsivo** para dispositivos móviles y escritorio.
 
-<<<<<<< HEAD
-=======
 ---
 
 ## 🚀 Instalación y ejecución
@@ -61,7 +59,6 @@ Este proyecto es una **aplicación web moderna** desarrollada como trabajo final
 
 ---
 
->>>>>>> 185476fde1bb4651738506e0136d87f7b89e0e47
 ## Compatibilidad de visualización
 
 El diseño ha sido probado y se visualiza correctamente en pantallas de **1280px** de ancho en adelante. Se recomienda utilizar resoluciones iguales o superiores para una mejor experiencia, mientras se continúa trabajando en la optimización para dispositivos móviles y otros tipos de pantallas
