@@ -1,8 +1,9 @@
+import CallToAction from "./CallToAction";
 import NavBar from "./NavBar";
 
 function IntroHero(){
   return (    
-    <div className="h-full flex justify-evenly flex-col gap-15">
+    <div className="flex flex-col justify-evenly h-full">
       <p className="text-3xl">Ta:</p>
 
       <div>
@@ -13,8 +14,15 @@ function IntroHero(){
         We've spent the last 7 years helping over 25,00000 <br/> teams just like yourself create and sustain <br /> successful online support.
       </p>       
       </div>
+
+      <div className="h-fit mb-15">
+        <CallToAction/>     
+      </div>
+
       
+        
       <NavBar referencia = "redes"/>
+      
     </div>    
   );
 };
